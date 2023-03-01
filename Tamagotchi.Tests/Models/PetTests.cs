@@ -5,5 +5,12 @@ using System;
 
 namespace Tamagotchi.Tests
 {
-  // 
+  [TestClass]
+  public class PetTests : IDisposable
+  {
+    public void Dispose()
+    {
+      Pet.ClearAll();
+    }
+  } 
 }
