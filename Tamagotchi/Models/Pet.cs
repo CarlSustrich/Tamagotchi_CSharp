@@ -36,5 +36,7 @@ namespace Tamagotchi.Models
     {
       _instances.Clear();
     }
+
+    public F
   }
 }
