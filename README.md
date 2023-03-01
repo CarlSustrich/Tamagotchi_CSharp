@@ -1,8 +1,8 @@
-# _Pierre's Bakery_
+# _Tamagotchi
 
 #### By _Carl Sustrich & Vera Weikel_
 
-#### _A project built to create a Pierre's Bakery application_
+#### _A project built to create a Tamagotchi application_
 
 ## Technologies Used
 
