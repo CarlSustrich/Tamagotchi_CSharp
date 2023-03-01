@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Tamagotchi.Models
 {
@@ -16,8 +17,8 @@ namespace Tamagotchi.Models
     {
       Name = name;
       Food = 10;
-      Attention = 100;
-      Sleep = 100;
+      Attention = 10;
+      Sleep = 10;
       _instances.Add(this);
       Id = _instances.Count; 
     }
@@ -48,8 +49,31 @@ namespace Tamagotchi.Models
       {
         Food = 100;
       }
-      
-      //return Increment + 10;
     }
+
+    public void AttentionHappy()
+    {
+      if (Attention+10 <= 100)
+      {
+        Attention += 10;
+      }
+      else 
+      {
+        Attention = 100;
+      }
+    }
+
+    // public static void DecrementOverTime()
+    // {
+    //   Task.Delay(3000).Wait();
+    //   List<Pet> list = Pet.GetAll();
+    //   foreach (Pet pet in list)
+    //   {
+    //     pet.Attention -= 10;
+    //     pet.Food -=10;
+    //     pet.Sleep -=10;
+    //   }
+    //   Pet.DecrementOverTime();
+    // }
   }
 }

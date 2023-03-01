@@ -16,7 +16,7 @@
     <ul>
     @foreach (Pet item in Model)
     {
-      <li><a href="pets/@(Model.IndexOf(item)+1)">@item.Name</a>, Food: @item.Food Sleep: @item.Sleep Attention: @item.Sleep</li>
+      <li><a href="pets/@(Model.IndexOf(item)+1)">@item.Name</a>, Food: @item.Food Sleep: @item.Sleep Attention: @item.Attention</li>
     }
     @* <a href=@("DeleteThisPackage/(Model.IndexOf(item))")></a> *@
     </ul>

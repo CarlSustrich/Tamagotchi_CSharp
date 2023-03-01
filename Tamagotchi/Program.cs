@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Tamagotchi.Models;
 
 namespace Tamagotchi
 {
@@ -24,6 +25,8 @@ namespace Tamagotchi
       );
 
       app.Run();
+
+      // Pet.DecrementOverTime();
     }
   }
 }

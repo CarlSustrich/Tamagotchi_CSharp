@@ -42,5 +42,12 @@ namespace Tamagotchi.Controllers
       // return RedirectToAction("Show", Tamagotchi.Models.Pet.Find(id));
     }
 
+    [HttpGet("/AttentionPet/{id}")]
+    public ActionResult AttentionPet(int id)
+    {
+      Pet targetPet = Pet.Find(id);
+      targetPet.AttentionHappy();
+      return RedirectToAction("Show", targetPet);
+    }
   }
 }
