@@ -18374,28 +18374,33 @@
   "RootNamespace": "Tamagotchi",
   "Documents": [
     {
-      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pet/Index.cshtml",
-      "TargetPath": "Views\\Pet\\Index.cshtml",
+      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pets/Show.cshtml",
+      "TargetPath": "Views\\Pets\\Show.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pet/Show.cshtml",
-      "TargetPath": "Views\\Pet\\Show.cshtml",
+      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pets/New.cshtml",
+      "TargetPath": "Views\\Pets\\New.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pet/New.cshtml",
-      "TargetPath": "Views\\Pet\\New.cshtml",
+      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pets/Index.cshtml",
+      "TargetPath": "Views\\Pets\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pet/Create.cshtml",
-      "TargetPath": "Views\\Pet\\Create.cshtml",
+      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pets/Create.cshtml",
+      "TargetPath": "Views\\Pets\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/carlsustrich/epicodus/c#/week2/Tamagotchi.Solution/Tamagotchi/Views/Pets/Details.cshtml",
+      "TargetPath": "Views\\Pets\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -32,5 +32,15 @@ namespace Tamagotchi.Controllers
       Pet foundPet = Pet.Find(id);
       return View(foundPet);
     }
+
+    [Route("/FeedPet/{id}")]
+    public ActionResult FeedPet(int id)
+    {
+      Pet targetPet = Pet.Find(id);
+      targetPet.FoodIntake();
+      return RedirectToAction("Show", targetPet);
+      // return RedirectToAction("Show", Tamagotchi.Models.Pet.Find(id));
+    }
+
   }
 }

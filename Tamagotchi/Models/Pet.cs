@@ -15,7 +15,7 @@ namespace Tamagotchi.Models
     public Pet(string name)
     {
       Name = name;
-      Food = 100;
+      Food = 10;
       Attention = 100;
       Sleep = 100;
       _instances.Add(this);
