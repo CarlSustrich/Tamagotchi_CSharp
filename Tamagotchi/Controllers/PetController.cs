@@ -16,7 +16,7 @@ namespace Tamagotchi.Controllers
     [HttpGet("/pets/new")]
     public ActionResult Create()
     {
-
+      return View();
     }
   }
 }
