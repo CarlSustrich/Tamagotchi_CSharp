@@ -63,9 +63,10 @@ namespace Tamagotchi.Models
       }
     }
 
-    // public static void DecrementOverTime()
+    // public static async void DecrementOverTime()
     // {
-    //   Task.Delay(3000).Wait();
+    //   // Console.WriteLine("Decrement Ran");
+    //   await Task.Run(Task.Delay(3000));
     //   List<Pet> list = Pet.GetAll();
     //   foreach (Pet pet in list)
     //   {

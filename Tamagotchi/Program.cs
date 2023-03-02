@@ -24,9 +24,11 @@ namespace Tamagotchi
         pattern: "{controller=Home}/{action=Index}/{id?}"
       );
 
+      // Pet.DecrementOverTime();
+
       app.Run();
 
-      // Pet.DecrementOverTime();
+      
     }
   }
 }
